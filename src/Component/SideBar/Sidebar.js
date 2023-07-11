@@ -6,11 +6,13 @@ export default function Sidebar() {
   const [sideList, setSideList] = useState(side_topicList ); //setSideList is function to set sideList Variable 
   // we can't set sideList by assignment method
 
+  
+  
   return (
     <aside>
       <ul className='aside_List'>
         {sideList.map((item,index) => (
-          <li key={index}><a href={item.link}>{item.name}</a></li>
+          <li key={index}>{item.name} </li>
         ))}
       </ul>
     </aside>
