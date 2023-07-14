@@ -7,6 +7,7 @@ export default function Sidebar() {
   // we can't set sideList by assignment method
 
   
+  console.log("Side bar Render.........")
   
   return (
     <aside>

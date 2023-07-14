@@ -3,11 +3,12 @@ import Sidebar from '../SideBar/Sidebar';
 
 export default function Article() {
     const [data1, function1] = useState("Working");
-    console.log(Sidebar);
+    console.log("Article render......");
 
 
   return (
     <div>
+      this is Article
       
     </div>
   )

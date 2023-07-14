@@ -12,6 +12,7 @@ export default function Navbar(props) {
         console.log(evee.timeStamp)
     }
     
+    console.log("Navbar render...........")
     return (
         <>
             <nav>
